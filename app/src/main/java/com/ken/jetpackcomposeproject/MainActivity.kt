@@ -70,8 +70,8 @@ fun LoginUI() {
                         bottomEnd = 10.dp
                     )
                 )
-                .background(MaterialTheme.colorScheme.background)
                 .wrapContentHeight()
+                .background(MaterialTheme.colorScheme.background)
                 .align(Alignment.Center)
         ) {
             Column(
@@ -128,7 +128,7 @@ fun LoginUI() {
                 }
             }
         }
-      
+
     }
 
 }

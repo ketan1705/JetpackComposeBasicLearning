@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JetpackComposeProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false"
+            android:label="@string/title_activity_camera"
+            android:theme="@style/Theme.JetpackComposeProject" />
+        <activity
+            android:name=".GoogleAsisstanceActivity"
+            android:exported="false"
+            android:label="@string/title_activity_google_asisstance"
+            android:theme="@style/Theme.JetpackComposeProject" />
+        <activity
+            android:name=".Web2Activity"
+            android:exported="false"
+            android:label="@string/title_activity_web2"
+            android:theme="@style/Theme.JetpackComposeProject" />
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="true"
+            android:label="@string/title_activity_calculator"
+            android:theme="@style/Theme.JetpackComposeProject">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.JetpackComposeProject" />
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JetpackComposeProject</string>
+    <string name="title_activity_web2">Web2Activity</string>
+    <string name="title_activity_google_asisstance">GoogleAsisstanceActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_calculator">CalculatorActivity</string>
+</resources>
